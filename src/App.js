@@ -23,7 +23,9 @@ function App() {
             <Route path="/aboutUs">
               <AboutUs />
             </Route>
-            
+            <Route path="/blogs/:id">
+              <BlogDetails />
+            </Route>
             <Route path="*">
               <NotFound />
             </Route>
