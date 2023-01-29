@@ -4,12 +4,13 @@ import { useHistory } from "react-router-dom";
 const Create = () => {
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
-    const [author, setAuthor] = useState('mario');
+    const [author, setAuthor] = useState('Khalif Nhashon');
+    const [image, setImage] = useState('');
     const history = useHistory();
   
     const handleSubmit = (e) => {
       e.preventDefault();
-      const blog = { title, body, author };
+      const blog = { title, body, author,image };
   
       fetch('http://localhost:8000/blogs/', {
         method: 'POST',
@@ -31,6 +32,13 @@ const Create = () => {
             required 
             value={title}
             onChange={(e) => setTitle(e.target.value)}
+          />
+          <label>Blog image url:</label>
+          <input 
+            type="text" 
+            required 
+            value={image}
+            onChange={(e) => setImage(e.target.value)}
           />
           <label>Blog body:</label>
           <textarea
