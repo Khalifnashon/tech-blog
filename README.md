@@ -25,8 +25,12 @@ Built With
     Node.js
     React
 
-## Requirement
-    Json Server -
+## Setup/Installation Requirements
+Json Server
+Run this command to get the backend started:
+npx json-server --watch data/db.json --port 8000
+http://localhost:8000/blogs
+
 ## Live Link
 The application is deployed in Firebase
 Here is the link https://techxtrablog.web.app/
