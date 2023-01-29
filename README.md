@@ -9,19 +9,23 @@ Welcome to the Blogs Project! This project is a simple blogging platform where u
 Create a blog with a title, body, and an image
 View all blogs created by different users
 
+## Screenshot
+![Screenshot (390)](https://user-images.githubusercontent.com/108731638/215355299-a15eb498-d0d1-446b-b4d1-8bf73e6b6587.png)
+
+
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Prerequisites
+## Prerequisites
     Node.js and npm installed on your machine
     A text editor of your choice (e.g. Visual Studio Code)
-Installation
+## Installation
     Clone the repository: git clone https://github.com/Khalifnashon/tech-blog.git
     Navigate to the project directory
     Install dependencies: npm install
     on your VS Code terminal run "npx json-server --watch data/db.json --port 8000" to expose our local server
     Start the development server: npm run dev
-Built With
+## Built With
     Node.js
     React
 
@@ -47,7 +51,6 @@ Here is the link https://techxtrablog.web.app/
     - khalifnashon@gmail.com
     - +254743425004
 
-## Screenshot
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
