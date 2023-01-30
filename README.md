@@ -19,12 +19,21 @@ These instructions will get you a copy of the project up and running on your loc
 ## Prerequisites
     Node.js and npm installed on your machine
     A text editor of your choice (e.g. Visual Studio Code)
-## Installation
-    Clone the repository: git clone https://github.com/Khalifnashon/tech-blog.git
-    Navigate to the project directory
-    Install dependencies: npm install
-    on your VS Code terminal run "npx json-server --watch data/db.json --port 8000" to expose our local server
-    Start the development server: npm run dev
+
+## Setup
+
+Clone the repository: git clone https://github.com/Khalifnashon/tech-blog.git
+Navigate to the project's root directory using the command line.Then:
+
+1. Run `npm install` in your terminal.
+2. Run `npm run server`. This will run your backend on port `8001`.
+3. In a new terminal, run `npm start`. This will run your React app on port `8000`.
+
+Open [http://localhost:8001/bots](http://localhost:8000/blogss) in
+the browser to verify that your backend is working before you proceed!
+
+The base URL for your backend is: `http://localhost:8000`
+
 ## Built With
     Node.js
     React
