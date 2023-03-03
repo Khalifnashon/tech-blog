@@ -47,6 +47,7 @@ http://localhost:8000/blogs
 ## Live Link
 The application is deployed in Firebase
 Here is the link https://techxtrablog.web.app/
+Updated link : https://techxtrablog.netlify.app/
 
 ## Bugs
     There is no bugs in the project.
