@@ -72,6 +72,41 @@
   cursor: pointer;
 }
 
+.blog-details .reviews {
+  margin-top: 50px;
+}
+
+.blog-details .reviews h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.blog-details .reviews .review {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.blog-details .reviews .review h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.blog-details .reviews .review p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.blog-details .reviews .review .author {
+  font-size: 14px;
+  font-style: italic;
+  text-align: right;
+  font-color: blue;
+}
+
+
 /* create new blog form */
 .create {
   max-width: 400px;
